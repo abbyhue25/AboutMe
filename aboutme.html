@@ -2,23 +2,25 @@
 <html>
     <head>
         <title>Life of Abby</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    
+
         <body>
         <header>
             <h1>Life of Abby</h1>
-            <p>Hi! My name is Abby Hue! I am currently a student at Nicholls State University!</p>
+            <img src="C:\Users\Abby\Pictures\2014-06-23\IMG_0733.PNG" alt="My Image" width="200px">
+            <p>Hi! My name is Abby Hue and I am a student at Nicholls State University!</p>
         </header>
         <article>
             <section>
                 <h2><strong>My Background</strong></h2>
-                <p>I am currently a Senior majoring in Computer Information Systems!<br>
+                <p class="facts">I am currently a Senior majoring in Computer Information Systems!<br>
                 One day, I am hoping to become a Software Engineer either with Disney or somewhere<br>
                 in Pensacola!
                 </p>
                 <section>
                     <h3>Fun Facts!</h3>
-                    <ol>
+                    <ol class="facts">
                         <li>I did the Disney College Program in Spring 2016!</li>
                         <li>I am a member of Gamma Phi Beta Sorority!</li>
                         <li>I am a picky eater!</li>
@@ -26,12 +28,28 @@
                 </section>
             </section>
             <section>
-                <ul>
-                    <h2>My Favorite Things To Do</h2>
+            <h2>My Favorite Things To Do</h2>
+                <ul class="facts">
                     <li>Hangout with family and friends</li>
                     <li>Watch Netflix and Hulu</li>
                     <li>Go to the movies</li>
                 </ul>
+            </section>
+            <section>
+                <p id="socialmedia">
+                  If you would like to learn more about me or have any questions,<br> 
+                  please fill out the contact form or click on the following links:<br><br>
+                  <a href="https://www.facebook.com/zebragirl225">https://www.facebook.com/zebragirl225</a><br>
+                  <a href="https://www.instagram.com/princessabby96/?hl=en">https://www.instagram.com/princessabby96/?h1=en</a>
+                </p>
+                  <form id="contact">
+                    <input type="text" placeholder="First Name"><br><br>
+                    <input type="text" placeholder="Last Name"><br><br>
+                    <input type="text" placeholder="name@domain.com"><br><br>
+                    <textarea rows="20" cols="80">
+                    </textarea><br>
+                    <button type="button">Submit</button>
+                </form>
             </section>
         </article>
         </body>
